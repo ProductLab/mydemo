@@ -43,7 +43,7 @@ if fetch(:rails_env) == "test"
 end
 
 # The Git repository of the source code and other artificats of the RoR applications.
-set :repository, "git@github.com:eraserx99/mydemo.git"
+set :repository, "git://github.com/ProductLab/mydemo.git"
 # The branch of the Git repository.
 set :branch, "master"
 
