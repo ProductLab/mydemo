@@ -17,8 +17,8 @@
 require "bundler/capistrano" 
 require "rvm/capistrano"
 
-# ruby-1.9.3-p194@working is a working repository when deploying the RoR applications
-set :rvm_ruby_string, 'ruby-1.9.3-p194@working'
+# ruby-1.9.3-p327@working is a working repository when deploying the RoR applications
+set :rvm_ruby_string, 'ruby-1.9.3-p327@working'
 set :rvm_type, :system 
 
 # The deployment script will run under the :user account to deploy the RoR applications locally or remotely.
